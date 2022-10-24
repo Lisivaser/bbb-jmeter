@@ -6,7 +6,7 @@ Docker based with grafana and influxdb integration to visualize results:
 ![image](https://user-images.githubusercontent.com/2726293/133854692-fefe0366-f75e-4ca4-ab10-a3a9d1539e69.png)
 
 ## What does it do?
-- The `test/bbb_23.jmx` script creates a meeting for each line in `test/meetings.csv` and join them with users according to the number of threads defined by `ThreadsOwner` and `ThreadsGuest`.
+- The `test/bbb_25.jmx` script creates a meeting for each line in `test/meetings.csv` and join them with users according to the number of threads defined by `ThreadsOwner` and `ThreadsGuest`.
 
 Then, each user/thread:
 - Performs the initial default meteor websocket communication and subscribe to all collections;
@@ -23,7 +23,7 @@ When the Owner loop ends, they end the meeting.
 ## Prerequisites
 Docker and docker-compose
 ## Running
-- `git clone https://github.com/mconf/bbb-jmeter.git && cd bbb-jmeter`
+- `git clone https://github.com/Lisivaser/bbb-jmeter.git && cd bbb-jmeter`
 - Edit `.env` file: 
   - Add the `hostname` and `salt` of the server you want to test against
   - Configure the threads and ping variables as desired
